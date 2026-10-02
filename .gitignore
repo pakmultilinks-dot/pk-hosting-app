@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.expo/
+screenshots/
+screenshots-qa2/
+*.log
+.DS_Store
