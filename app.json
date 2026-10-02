@@ -1,1 +1,60 @@
-{"expo":{"android":{"adaptiveIcon":{"backgroundColor":"#0b1510","backgroundImage":"./assets/images/android-icon-background.png","foregroundImage":"./assets/images/android-icon-foreground.png","monochromeImage":"./assets/images/android-icon-monochrome.png"},"package":"com.pkhosting.app","predictiveBackGestureEnabled":false},"experiments":{"typedRoutes":true},"icon":"./assets/images/icon.png","ios":{"bundleIdentifier":"com.pkhosting.app","supportsTablet":true},"name":"PK Hosting","orientation":"portrait","plugins":["expo-router",["expo-splash-screen",{"backgroundColor":"#0b1510","dark":{"backgroundColor":"#0b1510"},"image":"./assets/images/splash-icon.png","resizeMode":"contain"}]],"scheme":"pkhosting","slug":"pk-hosting-app","userInterfaceStyle":"light","version":"1.0.0","web":{"bundler":"metro","favicon":"./assets/images/favicon.png","output":"static"}}}
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1510",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "package": "com.pkhosting.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./assets/images/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.pkhosting.app",
+      "supportsTablet": true
+    },
+    "name": "PK Hosting",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0b1510",
+          "dark": {
+            "backgroundColor": "#0b1510"
+          },
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "scheme": "pkhosting",
+    "slug": "pk-hosting-app",
+    "userInterfaceStyle": "light",
+    "version": "1.0.0",
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png",
+      "output": "static"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "66f590ac-33ef-4fd4-819e-65b1efa70bf0"
+      }
+    },
+    "owner": "kominman",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/66f590ac-33ef-4fd4-819e-65b1efa70bf0"
+    }
+  }
+}
